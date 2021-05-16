@@ -52,7 +52,7 @@ img:hover {
   grid: repeat(3, 1fr) / repeat(3, 1fr);
   grid-auto-flow: column;
   gap: 0.5em;
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
 
 /* create your tile classes! we recommend .small .med .large */
