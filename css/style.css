@@ -61,7 +61,7 @@ img:hover {
 }
 
 .med {
-  grid-column-end: span 2;
+  grid-column: auto / span 2;
 }
 
 .large {
