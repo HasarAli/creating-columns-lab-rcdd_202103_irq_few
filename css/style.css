@@ -49,9 +49,9 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-flow: column;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+  /*grid-template-rows: repeat(3, 1fr);*/
+  /*grid-auto-flow: column;*/
   grid: repeat(3, 1fr) / auto-flow repeat(3, 1fr);
 }
 
